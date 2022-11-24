@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/games.css">
+    <title>MVEP - games</title>
+</head>
+<body >
+
+    <!-- Barra de navegação -->
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col bg-dark ps-4 pt-3"><img class="position-absolute top-5 start-15 pt-1" src="img/controller.svg" alt="Logo controle de vídeo-game"><a class="text-decoration-none text-reset" href="index.html">
+                    <h1 class=" ps-5" id="nome_pag">MVEP</h1>
+                </a> 
+                    <div class="d-flex pe-5 pt-3 position-absolute top-0 end-0">
+                        <div class="search-box">
+                            <input class="search-txt " type="text" placeholder="O que você procura?" aria-label="Search">
+                            <a href="#" class="search-btn">
+                                <img src="img/busca.svg" alt="Lupa" width="25" height="25">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class=" ps-5 col-12 pt-3">
+                        <svg width="98%" height="25">
+                            <rect width="98%" height="1" style="fill:none;stroke-width:5;stroke:#a200ff" />
+                        </svg>
+
+                        <div class="row">                                
+                            <div class="col-sm-3 p-2 text-center"><div id="barra_nave" ><a class="text-decoration-none text-reset" id="noticias" href="Noticias.html"><p>Notícias</p></a></div></div>
+                            <div class="col-sm-3 p-2 text-center"><div id="barra_nave" ><a class="text-decoration-none text-reset" href="review.html"><p>Avaliações</p></a></div></div>
+                            <div class="col-sm-3 p-2 text-center"><div id="barra_nave" ><a class="text-decoration-none text-reset" href="streaming.html"><p>Streaming</p></a></div></div>
+                            <div class="col-sm-3 p-2 text-center"><div id="barra_nave" ><a class="text-decoration-none text-reset" href="games.html"><p>Games</p></a></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header> 
+    
+    <!-- Conteúdo -->
+
+    <main >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm bg-dark data-bs-ride"> 
+                   
+                        <section class="container ">
+                            <h2  style="color:#a200ff;">Jogos em alta</h2>
+                            <div id="carouselExampleControls" class="carousel slide d-flex" data-bs-ride="carousel">
+                                <div class="carousel-inner" >
+                                    <div class="carousel-item active " >
+                                        <div class="card-group ">
+                                            <div class="card ">
+                                                <img src="/img/games/JOGOS EM ALTA/Apex Legends.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                            <div class="card-body">
+                                                <h4> Apex Legends </h4>
+                                                <a class="card-title"href="https://www.ea.com/pt-br/games/apex-legends">
+                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                            <img src="/img/games/JOGOS EM ALTA/Ark_ Survival Evolved.jpg" class="card-img-top p-3" style="border-radius: 25px;"  alt="...">
+                                            <div class="card-body">
+                                                <h4>ARK Survival Evolved </h4>
+                                                <a class="card-title"href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/">
+                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Call of Duty_ Warzone.jpg"class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Call of Duty Warzone</h4>
+                                                    <a class="card-title"href="https://www.callofduty.com/br/pt/warzone">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                            <img src="/img/games/JOGOS EM ALTA/Clash of Clans.jpg" class="card-img-top p-3" style="border-radius: 25px;"  alt="...">
+                                            <div class="card-body">
+                                                <h4> Clash of Clans </h4>
+                                                <a class="card-title"href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=pt_BR&gl=US">
+                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Counter-Strike_ Global Offensive.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="..">
+                                                <div class="card-body">
+                                                    <h4> Counter-Strike Global Offensive </h4>
+                                                    <a class="card-title"href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Dead by Daylight.jpg" class="card-img-top p-3" style="border-radius: 25px;"  alt="...">
+                                                <div class="card-body">
+                                                    <h4>Dead by Daylight</h4>
+                                                    <a class="card-title"href="https://store.steampowered.com/app/381210/Dead_by_Daylight/">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Destiny 2.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Destiny 2</h4>
+                                                    <a class="card-title"href="https://www.bungie.net/7/pt-br/Destiny/NewLight">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Dota 2.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Dota 2</h4>
+                                                    <a class="card-title"href="https://store.steampowered.com/app/570/Dota_2/">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Fall Guys_ Ultimate Knockout.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Fall Guys</h4>
+                                                    <a class="card-title"href="https://store.epicgames.com/pt-BR/p/fall-guys">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/FIFA 22.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <div class="row ">
+                                                        <div class="col-sm-6">
+                                                            <h4>FIFA 22 Na Steam</h4>
+                                                            <a class="card-title"href="https://store.steampowered.com/app/1506830/FIFA_22/">
+                                                                <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                </a>
+                                                            </div>
+                                                        <div class="col-sm-6">
+                                                            <h4>FIFA 22 Na PlayStation</h4>
+                                                            <a class="card-title"href="https://www.ea.com/pt-br/games/apex-legendshttps://store.playstation.com/pt-br/product/UP0006-CUSA27111_00-FIFAFOOTBALL2022">
+                                                                <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Final Fantasy XIV_ A Realm Reborn.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Final Fantasy XIV A Realm Reborn</h4>
+                                                    <a class="card-title"href="https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/FORTNITE.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>FORTNITE</h4>
+                                                    <a class="card-title"href="https://www.epicgames.com/fortnite/pt-BR/home">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Free Fire.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Free Fire</h4>
+                                                    <a class="card-title"href="https://play.google.com/store/apps/details?id=com.dts.freefireth&hl=pt_BR&gl=US">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/GTA V.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>GTA V</h4>
+                                                    <a class="card-title"href="https://www.ea.com/pt-br/games/apex-https://www.rockstargames.com/br/gta-v">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/LEAGOFLEGENDS.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>League of Legends</h4>
+                                                    <a class="card-title"href="https://www.leagueoflegends.com/pt-br/">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/VALORANT.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>VALORANT</h4>
+                                                    <a class="card-title"href="https://playvalorant.com/pt-br/?gclid=Cj0KCQiA99ybBhD9ARIsALvZavVd4eKqXB6dLDVi_comkYxzdEUJKzvSE6ty_-8GnVs7kn0fO6gsSFwaAi5dEALw_wcB&gclsrc=aw.ds">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Lost Ark.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Lost Ark</h4>
+                                                    <a class="card-title"href="https://store.steampowered.com/app/1599340/Lost_Ark/">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/PUBG.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <div class="row ">
+                                                        <div class="col-sm-6">
+                                                            <h4>PUBG: BATTLEGROUNDS (versão PC)</h4>
+                                                            <a class="card-title"href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/">
+                                                                <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                </a>
+                                                            </div>
+                                                        <div class="col-sm-6">
+                                                            <h4>PUBG (versão mibile)</h4>
+                                                            <a class="card-title"href="https://play.google.com/store/apps/details?id=com.tencent.ig&hl=pt_BR&gl=US">
+                                                                <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Rust.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Rust</h4>
+                                                    <a class="card-title"href="https://store.steampowered.com/app/252490/Rust/">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Subway Surfers.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Subway Surfers</h4>
+                                                    <a class="card-title"href="https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=pt_BR&gl=US">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/Tom Clancy’s Rainbow Six Siege.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Tom Clancy’s Rainbow Six Siege</h4>
+                                                    <a class="card-title"href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/games/JOGOS EM ALTA/World of Warcraft.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                <div class="card-body">
+                                                    <h4>World of Warcraft</h4>
+                                                    <a class="card-title"href="https://worldofwarcraft.com/pt-br/start?utm_source=6372051&utm_medium=Paid&utm_content=336120361&utm_campaign=BLZ_27557830&dclid=&gclid=Cj0KCQiA99ybBhD9ARIsALvZavUx1ozqjWX6FhloKIcV_qCn3F603RmqH74Nl2zNB8NQIh9szp92U-waAoOCEALw_wcB">
+                                                        <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md bg-dark data-bs-ride">
+                                    <div id="carouselExampleControls2" class="carousel slide d-flex p-5" data-bs-touch="false" data-bs-interval="false">
+                                        <section class="container">
+                                            <h2  style="color:#a200ff;">Jogos em alta</h2>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="card-group p-5">
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/Brawlhalla.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Brawlhalla</h4>
+                                                                <a class="card-title"href="https://store.steampowered.com/app/291550/Brawlhalla/">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/Call of Duty_ Warzone.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Call of Duty Warzone</h4>
+                                                                <a class="card-title"href="https://www.callofduty.com/br/pt/warzone">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="card-group">
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/Destiny 2.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Destiny 2</h4>
+                                                                <a class="card-title"href="https://www.bungie.net/7/pt-br/Destiny/NewLight">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/Dota Underlords.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Dota Underlords</h4>
+                                                                <a class="card-title"href="https://www.underlords.com">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="card-group">
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/Fortnite.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>FORTNITE</h4>
+                                                                <a class="card-title"href="https://www.epicgames.com/fortnite/pt-BR/home">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/genshin impact.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Genshin Impact</h4>
+                                                                <a class="card-title"href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=pt_BR&gl=UShttps://genshin.hoyoverse.com/pc-launcher/?utm_source=NA_google_BR_search_keywords_20201218&mhy_trace_channel=ga_channel&new=1&gclid=CjwKCAiAmuKbBhA2EiwAxQnt78QBkHd9_JyQQxM2iogD0SpHGmvBHJrEEp3X9YbJKMIpzZO63XWOOxoCLVEQAvD_BwE#/">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="card-group">
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/Heros of the Storm.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Heroes of the Storm</h4>
+                                                                <a class="card-title"href="https://heroesofthestorm.com/pt-br/">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/Paladins.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Paladins</h4>
+                                                                <a class="card-title"href="https://www.paladins.com">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="card-group">
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/RaceRoom Racing Experience.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>RaceRoom Racing Experience</h4>
+                                                                <a class="card-title"href="https://store.steampowered.com/app/211500/RaceRoom_Racing_Experience/">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/roblox.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Roblox</h4>
+                                                                <a class="card-title"href="https://www.roblox.com">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="card-group">
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/War Thunder .jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>War Thunder</h4>
+                                                                <a class="card-title"href="https://warthunder.com/br/registration?r=sem_16560498140_133163680926_587315212755_kwd-326520148964&placement=&gclid=CjwKCAiAmuKbBhA2EiwAxQnt7yn9RnQ6M9sO1vW8_sMUjTCzNgr7hw9epNfYQ_qXw__lDuRurX4NzBoCTGgQAvD_BwE#/">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/Warframe.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Warframe</h4>
+                                                                <a class="card-title"href="https://www.warframe.com/landing">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="card-group">
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/World of Warships.jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>World of Warships</h4>
+                                                                <a class="card-title"href="https://na.wargaming.net/registration/en/?game=wows&pub_id=stub&sid=SID_cMev7HHnPuR4aoK8ckarrwws-A2pFVQM8-gu5hJgTYWvZ9KYQWPKsM-1pIDQ0HnMP5rmTfTKYDOkSgY1-Y_8LTlDLfpxTWFVsL-tcAabMYuhF8vE7tJ9xNnd6Nld4IkirTQoJSzNE53&enctid=coggk8kzekfl&lpsn=WoWS+WGNR+reg+full+NA&foris=1&teclient=1667350852234023421&utm_source=wg_web_site&utm_medium=organic&utm_campaign=5g3lor83&utm_content=stub">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="/img/games/JOGOS GRÁTIS/Zoria_ Age of Shattering Prologue .jpg" class="card-img-top p-3" style="border-radius: 25px;" alt="...">
+                                                            <div class="card-body">
+                                                                <h4>Zoria Age of Shattering Prologue</h4>
+                                                                <a class="card-title"href="https://store.steampowered.com/app/1216470/Zoria_Age_of_Shattering_Prologue/?l=portuguese">
+                                                                    <img src="/img/games/icons8-controle-100.png"  style="width:70px;height:70px;">
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                        
+                                        </div>
+                        </section>
+                    
+
+
+    </main>
+
+    <footer>
+        <div id="rodape" class="row ">
+
+            <div class="col-sm-4 text-center text-white bg-dark pb-4 pt-4">
+                <a class="text-decoration-none text-reset" href="#">
+                    <h2>SOBRE</h2>
+                    <h5>Anuncie</h5>
+                    <h5>Quem Somos</h5>
+                    <h5>Fale Conosco</h5>
+                    <h5>Termos de Uso</h5>
+                    <h5>Política de Privacidade</h5>
+                </a>
+            </div>
+
+            <div class="col-sm-4 text-center text-white bg-dark pt-4">
+                <a class="text-decoration-none text-reset" href="#">
+                    <h2>PLATAFORMAS</h2>
+                    <h5>Playstation</h5>
+                    <h5>XBox</h5>
+                    <h5>Nintendo</h5>
+                    <h5>Mobile</h5>
+                    <h5>PC</h5>
+                </a>
+            </div>
+
+            <div class="col-sm-4 text-center text-white bg-dark pt-4">
+                <h2>REDES SOCIAIS</h2>
+                <a class="text-decoration-none text-reset" href="#">
+                    <div class="d-inline-flex p-2"><img src="img/facebook.svg" alt=""></div>
+                    <div class="d-inline-flex p-2"><img src="img/instagram.svg" alt=""></div>
+                    <div class="d-inline-flex p-2"><img src="img/linkedin.svg" alt=""></div>
+                    <div class="d-inline-flex p-2"><img src="img/discord.svg" alt=""></div>
+                    <div class="d-inline-flex p-2"><img src="img/youtube.svg" alt=""></div>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
