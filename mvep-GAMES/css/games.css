@@ -1,0 +1,17 @@
+.card{
+    background-color: #212529;
+    color: #a200ff;
+    border: #212529;
+
+}
+
+#coluna{
+    background-color: #4A0274;
+}
+#coluna1{
+    background-color: #6F00AE;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: #171718;
+}

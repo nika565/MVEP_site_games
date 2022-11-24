@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#body{
+    background-color: #212529
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap');
+
+/* CSS HEADER */
+
+#nome_pag{
+    color: #a200ff;
+    font-family:'Rubik', sans-serif;
+    font-weight:900; 
+} 
+
+
+#botao_pesquisa{
+    background-color: #212529;
+    border-radius: px;
+}
+
+.search-box{
+    background: #a200ff;
+    height: 40px;
+    padding: 10px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #a200ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: #a200ff;
+
+}
+
+#barra_nave{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+#barra_nave:hover{
+    border-bottom: 3px solid #a200ff;
+    color: #a200ff;
+  
+  }
+
+  /* FIM - CSS HEADER */
+
+#rodape{
+    border-top: 4px solid #a200ff;
+}
+
+/* MAIN */
+
+#carouselExampleIndicators{
+    margin: 0;
+    padding: 0;
+}
+
+#conteudo_destaque{
+    background-color: #212529;
+}
+
+
+#card_menu_carousel{
+    background-color: #a200ff;
+    color: #fff;
+}
+
+#conteudo_2{
+    margin: 0;
+}
+
+#login{
+    background-color: #a200ff;
+    width: 360px;
+    height: 280px;
+    border-radius: 25px;
+}
+
+#conteudo{
+    margin: 0;
+    padding: 0;
+}
+
+#div_aaa{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#email{
+    border-radius: 10px;
+    border: none;
+}
+
+#senha{
+    border-radius: 10px;
+    border: none;
+}
+
+
+#botao_entrar{
+    background-color: rgb(85, 12, 153);
+    border: none;
+    width: 210px;
+    border-radius: 10px;
+}
+
+
+#avaliacoes{
+    background-color: gray;
+}
+
+#btn_avaliacoes{
+    background-color: #a200ff;
+    border: none;
+}
+
+#cards{
+    background-color: #212529;
+    color: #fff;
+    border: none;
+
+}
+
+#cards:hover{
+    transition: 0.4s;
+    background-color: #a200ff;
+    color: #fff;
+}
+
+#botoes{
+    background-color: rgb(85, 12, 153);
+    border: none;
+    width: 150px;
+    font-weight: bolder;
+}
+
+#botoes:hover{
+    background-color: #fff;
+    color: rgb(85, 12, 153);
+    width: 150px;
+    transition: 0.4s;
+}
+
+#botoes2{
+    background-color: #a200ff;
+    border: none;
+    font-weight: bolder;
+}
+
+#botoes2:hover{
+    
+    color: #44016b;
+    transition: 0.4s;
+}
+
+
+#btn_avaliacoes{
+    background-color: #212529;
+    color: #a200ff;
+    font-weight: bold;
+    border: 2px solid #a200ff;
+}
+
+
+#btn_avaliacoes:hover{
+    background-color: #c25efc;
+    color: #44016b;
+    transition: 0.4s;
+}
+
+#card_avaliacoes{
+    border: 3px solid #212529;
+    background-color: #212529;
+    color: #fff;
+}
+
+#card_avaliacoes:hover{
+    border: 3px solid #a200ff;
+    color: #a200ff;
+    transition: 0.5s;
+}
+
+#coluna{
+    background-color: #4A0274;
+}
+#coluna1{
+    background-color: #6F00AE;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: #171718;
+}
